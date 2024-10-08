@@ -17,6 +17,7 @@ public class Customer {
         return phone;
     }
 
+    @Override
     public String toString() {
         return "Customer: " + name +
                 ", phone " + phone;
